@@ -1,0 +1,178 @@
+/****************************************************************************** TAG SELECTORS ************************************************************************************/
+body {
+      margin: 0;
+      color: #40514E;
+}
+h1 {
+    font-family: 'Satisfy', cursive;
+    margin: 32px 0 0;
+    font-size: 6rem;
+    line-height: 2;
+    color: #66BFBF;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: Arial, sans-serif;
+    color: #11999E;
+    }
+p {
+   line-height: 2;
+}
+hr {
+    width: 5%;
+    border-style: dotted none none none;
+    border-color:#EAF6F6;
+    border-width: 9px;
+}
+/****************************************************************************** CLASS SELECTORS **********************************************************************************/
+.header {
+        background-color: #CBF1F5;
+        position: relative;
+        height: 150px;
+}
+.header-photo {
+        width: 4%;
+        position: absolute;
+        left: 350px;
+        top: 20px;
+}
+.header-link-1 {
+        position: absolute;
+        right: 350px;
+        top: 50px;
+        color: #11999E;
+        font-family: Arial, sans-serif;
+        font-size: 1.1rem;
+        text-decoration: none;
+}
+.header-link-2 {
+        position: absolute;
+        right: 430px;
+        top: 50px;
+        color: #11999E;
+        font-family: Arial, sans-serif;
+        font-size: 1.1rem;
+        text-decoration: none;
+}
+.header-link-3 {
+        position: absolute;
+        right: 510px;
+        top: 50px;
+        color: #11999E;
+        font-family: Arial, sans-serif;
+        font-size: 1.1rem;
+        text-decoration: none;
+}
+.header-link-1:hover {
+        color: black;
+}
+.header-link-2:hover {
+        color: black;
+}
+.header-link-3:hover {
+        color: black;
+}
+.top-container {
+        background-color: #CBF1F5;
+        text-align: center;
+        position: relative;
+        padding-top: 100px;
+}
+.middle-container {
+        text-align: center;
+        margin: 100px 0 150px;
+}
+.bottom-container {
+        text-align: center;
+        background-color: #66BFBF;
+        padding: 50px 0 20px;
+}
+.cloud-1 {
+        position: absolute;
+        right: 400px;
+        top: 40px;
+}
+.cloud-2 {
+        position: absolute;
+        left: 400px;
+        bottom: 300px;
+}
+.profile {
+        margin-bottom: 100px;
+}
+.profile-photo {
+        width: 12.5%;
+}
+.profile-paragraph {
+        width: 30%;
+        margin: auto;
+}
+.skills {
+        margin-top: 100px;
+}
+.skill-1 {
+        width: 50%;
+        margin: 100px auto;
+        text-align: left;
+}
+.skill-2 {
+        width: 50%;
+        margin: 100px auto;
+        text-align: right;
+}
+.skill-1-image {
+        width: 25%;
+        margin-right: 30px;
+        float: left;
+}
+.skill-2-image {
+        width: 25%;
+        margin-left: 30px;
+        float: right;
+}
+.contact-me {
+        margin-top: 100px;
+        height: 202px;
+}
+.contact-paragraph {
+        width: 21%;
+        margin: 40px auto 60px;
+}
+.btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        border-radius: 8px;
+        text-shadow: 0px 0px 3px #000000;
+        box-shadow: 0px 1px 3px #000000;
+        font-family: Arial, sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+.btn:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        text-decoration: none;
+}
+.footer-link {
+        color: #11999E;
+        font-family: Arial, sans-serif;
+        margin: 10px 15px;
+        text-decoration: none;
+}
+.footer-link:hover {
+        color: #EAF6F6;
+}
+.bottom-paragraph {
+        color: #EAF6F6;
+        font-size: 0.80rem;
+        margin-top: 32px;
+        margin-bottom: 0px;
+}
